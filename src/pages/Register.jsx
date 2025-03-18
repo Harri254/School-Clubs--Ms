@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Auth.css";
 
 const Register = () => {
@@ -38,7 +39,7 @@ const Register = () => {
         />
         <button type="submit">Register</button>
       </form>
-      <p>Already have an account? <a href="/login">Login here</a></p>
+      <p>Already have an account? <a><Link to="/login">Login here</Link></a></p>
     </div>
   );
 };
