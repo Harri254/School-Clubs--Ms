@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Harri254.github.io/School-Clubs--Ms",
+  "homepage": "https://Harri254.github.io/School-Clubs--Ms/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
